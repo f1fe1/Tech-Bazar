@@ -1,0 +1,9 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 100 100"
+  width="60"
+  height="60"
+>
+  <polygon points="50,10 90,50 50,90 10,50" fill="white"  stroke="#292c33" strokeWidth="1" />
+  <text x="32" y="63" textAnchor="middle" alignmentBaseline="middle" font-family="Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" font-size="30" fill="#292c33">UT</text>
+</svg>

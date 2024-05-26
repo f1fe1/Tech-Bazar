@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+.preloadContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #292c33;
+}
+.logoPreload {
+    margin-top: -70px;
+}
+@media (max-width: 550px) {
+    .logoPreload {
+        margin-top: -120px;
+    }
+}

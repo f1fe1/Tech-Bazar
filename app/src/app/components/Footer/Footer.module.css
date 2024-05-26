@@ -1,0 +1,51 @@
+.footer {
+	position: fixed; /* Зафіксована позиція */
+	bottom: 0; /* Прикріплюємо до нижньої границі */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	flex-shrink: 0;
+	z-index: 11;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: linear-gradient(to right, #4facfe, #00f2fe);
+	color: #ffffff;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .footer_container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 20px;
+ }
+ 
+ .threeBlock {
+	display: flex;
+	gap: 15px;
+ }
+ 
+ .icon {
+	filter: invert(1);
+	transition: transform 0.3s;
+ }
+ 
+ .icon:hover {
+	transform: scale(1.1);
+ }
+ 
+ .fd {
+	color: #ffffff;
+ }
+ 
+ @media (max-width: 535px) {
+	.footer_container {
+	  flex-direction: column;
+	}
+	.footer {
+	  flex-direction: column-reverse;
+	}
+ }
+ 

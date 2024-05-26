@@ -1,0 +1,9 @@
+.wrapper{
+    margin: -1px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding-top: 20px;
+}
